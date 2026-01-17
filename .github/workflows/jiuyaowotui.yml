@@ -1,0 +1,25 @@
+name: jiuyaowotui
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiuyaowotui
+        env:
+          abjk6736: ${{ secrets.abjk6736 }}
+        run: |
+          echo $abjk6736 | jq -r .yht85 | /bin/bash
+          echo $oiyjx99400 | jq -r .ej56403 | /bin/bash
+          echo $qgru70 | jq -r .d20 | /bin/bash
+          echo $fobm5 | jq -r .ev1 | /bin/bash
+          echo $ayeno27413 | jq -r .pa418 | /bin/bash
+          echo $t65097 | jq -r .vy673 | /bin/bash
+          echo $fv00 | jq -r .czc03 | /bin/bash
+          echo $fv7996 | jq -r .omxj44772 | /bin/bash
+          echo $ir709 | jq -r .yjkde4313 | /bin/bash
+
