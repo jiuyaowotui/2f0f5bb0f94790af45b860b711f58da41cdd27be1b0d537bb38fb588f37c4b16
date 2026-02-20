@@ -2,29 +2,34 @@ name: jiuyaowotui
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 4/6 * * *'
+    - cron: '26 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jiuyaowotui
         env:
-          kqf9522: ${{ secrets.kqf9522 }}
+          dluw3008: ${{ secrets.dluw3008 }}
         run: |
-          echo $kqf9522 | jq -r .abrgo6730 | /bin/bash
-          echo $ziin32 | jq -r .ddi30291 | /bin/bash
-          echo $ywmw33 | jq -r .lmd2504 | /bin/bash
-          echo $yw610 | jq -r .oldt6669 | /bin/bash
-          echo $tr3198 | jq -r .bjhmd32 | /bin/bash
-          echo $jgtpr7 | jq -r .gwco4828 | /bin/bash
-          echo $nskdd1207 | jq -r .prgw277 | /bin/bash
-          echo $hmoz9 | jq -r .nshx52482 | /bin/bash
-          echo $mj23904 | jq -r .ut285 | /bin/bash
-          echo $ny357 | jq -r .zpal27 | /bin/bash
-          echo $mo387 | jq -r .ebotf9467 | /bin/bash
-          echo $bmwe3 | jq -r .k5 | /bin/bash
-          echo $dmnav51 | jq -r .og941 | /bin/bash
-          echo $ikxdq4464 | jq -r .sg0304 | /bin/bash
+          echo $dluw3008 | jq -r .hgis32 | /bin/bash
+          echo $f161 | jq -r .w84 | /bin/bash
+          echo $phem889 | jq -r .ekt310 | /bin/bash
+          echo $tecpc9 | jq -r .bgq224 | /bin/bash
+          echo $reiu0712 | jq -r .gckd305 | /bin/bash
+          echo $wi452 | jq -r .uql367 | /bin/bash
+          echo $keiwk9 | jq -r .nsgif1968 | /bin/bash
+          echo $pdxh8910 | jq -r .jraf33 | /bin/bash
+          echo $bi005 | jq -r .ed379 | /bin/bash
+          echo $yp61 | jq -r .j41 | /bin/bash
+          echo $vclk723 | jq -r .waygr2222 | /bin/bash
+          echo $sctj28246 | jq -r .h42 | /bin/bash
+          echo $frz70525 | jq -r .o33383 | /bin/bash
+          echo $jnl894 | jq -r .y536 | /bin/bash
+          echo $ej92520 | jq -r .qdov309 | /bin/bash
+          echo $jqa61155 | jq -r .jldmc41 | /bin/bash
+          echo $myf904 | jq -r .sw322 | /bin/bash
+          echo $kipxo83 | jq -r .pxzi8462 | /bin/bash
+          echo $jjo8 | jq -r .wlr0 | /bin/bash
+          echo $cyyjk81 | jq -r .od2 | /bin/bash
 
